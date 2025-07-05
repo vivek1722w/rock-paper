@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+.choice {
+    height: 215px;
+    width: 215px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.choice:hover {
+
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    gap: 4px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score{
+font-size: 4rem;
+}
+#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 3rem;
+   
+}
+#msg{
+    font-size: 2rem;
+    background-color:  #081b31;
+    color: #fff;
+    display: inline;
+    padding: 2rem;
+    border-radius: 2rem;
+    border-style:solid ;
+}
+.bg-image{
+    background-image: url( https://img.freepik.com/free-vector/rock-paper-scissors-banner_107791-8387.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: o;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#resetbtn{
+    height: 3.5rem;
+    width: 8rem;
+    border-radius: 10px;
+    background: rgb(199, 153, 243);
+    color: white;
+    font-size: larger;
+    box-shadow: 10px;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10vmin;
+}
+#resetbtn:hover{
+    background:rgb(2, 89, 86);
+    cursor: pointer;
+}
